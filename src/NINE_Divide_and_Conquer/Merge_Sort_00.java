@@ -12,15 +12,15 @@ public class Merge_Sort_00 {
         if(si>=ei) {
             return;
         }
-        int mid = si + (ei-si)/2; //(si+ei)/2
-        mergeSort(arr,si,mid);    //left part
-        mergeSort(arr,mid+1,ei); //right part
+        int mid = si + (ei-si) / 2;  //(si+ei)/2
+        mergeSort(arr,si, mid);      //left part
+        mergeSort(arr,mid+1, ei);  //right part
         merge(arr,si,mid,ei);
     }
     public static void merge(int arr[], int si, int mid, int ei) {
         int temp[] = new int[ei-si+1];
-        int i = si;//iterator for left part
-        int j = mid+1; //iterator for right part
+        int i = si;          //iterator for left part
+        int j = mid+1;       //iterator for right part
         int k = 0;
 
         while(i<=mid && j<=ei) {
