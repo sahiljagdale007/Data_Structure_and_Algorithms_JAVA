@@ -6,7 +6,6 @@ public class Search_Rotated_Sorted_Array {
             return -1;
         }
         int mid = si + (ei - si) / 2;     //mid
-
         if (arr[mid] == tar) {
             return mid;
         }
