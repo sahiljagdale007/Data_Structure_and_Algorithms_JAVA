@@ -1,6 +1,7 @@
 package TEN_Backtracking;
 
 //REMEMBER: Backtracking concept is happening in Call Stack.
+//Everything is dependent is on choices in backtracking
 
 public class Find_Subset_01 {
     public static void findSubset(String str, String ans, int i) {
