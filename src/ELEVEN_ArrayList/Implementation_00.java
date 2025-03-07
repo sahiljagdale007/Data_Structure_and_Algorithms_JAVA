@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Implementation_00 {
     public static void main(String[]args) {
-//Array list is inbuilt data structure in Java //ArrayList is dynamic in nature //Elements will store linearly here
+        //Array list is inbuilt data structure in Java //ArrayList is dynamic in nature //Elements will store linearly here
         //Array list a part of java collection framework
         ArrayList<Integer> List1 = new ArrayList<>();
         ArrayList<String> List2 = new ArrayList<>();
