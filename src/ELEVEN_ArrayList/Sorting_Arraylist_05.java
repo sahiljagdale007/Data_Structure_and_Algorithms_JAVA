@@ -12,7 +12,7 @@ public class Sorting_Arraylist_05 {
 
         Collections.sort(list);
         System.out.println(list);
-        Collections.sort(list,Collections.reverseOrder());
+        Collections.sort(list,Collections.reverseOrder()); //this will sort the list in reverse order
         System.out.println(list);
     }
 }
